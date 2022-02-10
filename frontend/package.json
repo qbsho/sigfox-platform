@@ -16,7 +16,7 @@
   "scripts": {
     "config": "ts-node ./scripts/set-env.ts",
     "set-env": "npm run config",
-    "build": "ng build --prod",
+    "build": "ng build --configuration=production",
     "start": "ng serve",
     "start:dev": "ng serve --port 4201",
     "test": "ng test",
